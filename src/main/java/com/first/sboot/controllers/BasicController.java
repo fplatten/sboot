@@ -16,7 +16,7 @@ public class BasicController {
 	public @ResponseBody Basic basic() {
 		
 		Basic basic = new Basic();
-		basic.setMessage("First Message");
+		basic.setMessage("Second Message");
 		
 		return basic;
 	}
